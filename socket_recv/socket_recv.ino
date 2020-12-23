@@ -4,10 +4,8 @@
 WiFiServer server(80);
 WebSocketServer webSocketServer;
  
-char *ssid = "SK_WiFiGIGA9A48";  // 와이파이 이름
-//const char *ssid = "Campus7_Room3_2.4";  // 와이파이 이름
-//const char *pass = "";      // 와이파이 비밀번호
-char *pass = "1903003177";      // 와이파이 비밀번호
+char *ssid = "YOUR_WIFI";  // 와이파이 이름
+char *pass = "WIFI_PASS";      // 와이파이 비밀번호
 void setup() {
  
   Serial.begin(115200);
