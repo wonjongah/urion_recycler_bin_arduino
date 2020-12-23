@@ -22,11 +22,10 @@
 
 MFRC522 mfrc(SS_PIN, RST_PIN);
 
-//const char *ssid = "SK_WiFiGIGA9A48";  // 와이파이 이름
-//const char *pass = "1903003177";      // 와이파이 비밀번호
-const char *ssid = "Campus7_Room3_2.4";  // 와이파이 이름
-const char *pass = "12345678";      // 와이파이 비밀번호
-const char *mqtt_server = "192.168.0.103"; // 라즈베리파이 서버 주소
+const char *ssid = "YOUR_WIFI";  // 와이파이 이름
+const char *pass = "WIFI_PASS";      // 와이파이 비밀번호
+const char *mqtt_server = "BROKER_IP"; // 라즈베리파이 서버 주소
+
 // MQTT용 WiFi 클라이언트 객체 초기화
 int is_published = 0;
 int is_login = 0;
