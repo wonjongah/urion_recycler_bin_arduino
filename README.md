@@ -1,4 +1,9 @@
+ultra_RPi_rfid 실행
 
+- RPi로부터 서보모터 MQTT 받으면 각 상황에 맞는 서보모터 동작
+- RPi로부터 서보모터 MQTT 받으면 각 상황에 맞는 LED 동작
+- rfid 인식 시 RPi로 MQTT pub -> is_logined 활성
+- 로드셀 or 초음파 센서 활성 시 RPi로 MQTT pub -> is_published 활성
 
 ![스크린샷(83)](https://user-images.githubusercontent.com/50413112/103846563-bdf8e080-50e1-11eb-837d-3cd8effb5952.png)
 ![스크린샷(84)](https://user-images.githubusercontent.com/50413112/103846570-c18c6780-50e1-11eb-8a02-d51cee56face.png)
