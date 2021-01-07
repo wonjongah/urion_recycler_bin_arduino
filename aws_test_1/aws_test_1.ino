@@ -5,10 +5,8 @@
 
 
 
-const char *ssid = "SK_WiFiGIGA9A48";  // 와이파이 이름
-//const char *ssid = "Campus7_Room3_2.4";  // 와이파이 이름
-//const char *pass = "";      // 와이파이 비밀번호
-const char *pass = "1903003177";      // 와이파이 비밀번호
+const char *ssid = "YOUR_WIFI";  // 와이파이 이름
+const char *pass = "WIFI_PASS";      // 와이파이 비밀번호
 
 const char *thingId = "arduino_test";          // 사물 이름 (thing ID) 
 const char *host = "ENDPOINT"; // AWS IoT Core 주소
