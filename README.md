@@ -1,6 +1,14 @@
-#### ultra_RPi_rfid 실행
+### 유리 재사용 및 재활용 프로젝트 유리온의 아두이노 소스 코드와 개발 과정
 
-- RPi로부터 서보모터 MQTT 받으면 각 상황에 맞는 서보모터 동작
+#### 개발 환경
+
+- vscode, arduino, C++, MQTT, nodeMCU 사용
+- LED, servo moter, 초음파 센서
+
+#### 주요 기능
+
+- AWS iot core와 연동
+- RPi로부터 서보모터 MQTT 받으면 각 상황에 맞는 서보모터 동작, 음성 출력
 - RPi로부터 서보모터 MQTT 받으면 각 상황에 맞는 LED 동작
 - rfid 인식 시 RPi로 MQTT pub -> is_logined 활성
 - 로드셀 or 초음파 센서 활성 시 RPi로 MQTT pub -> is_published 활성
